@@ -1,9 +1,7 @@
-package med.voli.api.endereco;
+package med.voli.api.domain.endereco;
 
 import jakarta.persistence.Embeddable;
-import jakarta.persistence.Enumerated;
 import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 

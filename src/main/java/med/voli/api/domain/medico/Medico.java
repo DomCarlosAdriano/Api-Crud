@@ -1,12 +1,11 @@
-package med.voli.api.medico;
+package med.voli.api.domain.medico;
 
 import jakarta.persistence.*;
-import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import med.voli.api.endereco.Endereco;
+import med.voli.api.domain.endereco.Endereco;
 
 @Entity(name = "Medico")
 @Table(name = "medicos")
@@ -61,4 +60,5 @@ public class Medico {
     public void excluir() {
         this.ativo =false;
     }
+
 }

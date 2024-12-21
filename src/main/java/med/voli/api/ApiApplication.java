@@ -11,3 +11,20 @@ public class ApiApplication {
 	}
 
 }
+
+/*
+	"nome" : "Paulo Henrique",
+    "email" : "gatinha@hotmail.com",
+    "crm" : 444666,
+    "telefone" : "89955554444",
+    "especialidade" : "DERMATOLOGIA",
+    "endereco" : {
+        "logradouro" : "rua 3",
+        "bairro" : "Vegel do Lago",
+        "cep" : "57015040",
+        "complemento": "perto da colegio",
+        "numero" : "77",
+        "uf": "BR",
+        "cidade" : "Rio de Janeiro"
+    }
+ */
